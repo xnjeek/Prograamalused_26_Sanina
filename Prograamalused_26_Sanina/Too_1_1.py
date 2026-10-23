@@ -6,3 +6,4 @@ try:
     print(f"Tere, maailm! Tervitan sind {nimi}! Sa oled {vanus} aastat vana.")
 except ValueError:
     print("Palun sisesta kehtiv number vanuse jaoks. ")
+
