@@ -23,9 +23,9 @@
   <ItemGroup>
     <Compile Include="Prograamalused_26_Sanina.py" />
     <Compile Include="Too_1_1.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Compile Include="Too_1_3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
