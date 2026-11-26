@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d05134ed-3c72-42b7-877f-552700b96a09</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Too_3_1.py</StartupFile>
+    <StartupFile>iseseisvtöö_3_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="3_Kordused.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iseseisvtöö_3_1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Prograamalused_26_Sanina.py" />
