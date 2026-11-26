@@ -78,6 +78,22 @@ elif valik == '6':
         print("Nulle:", nullid)
     except ValueError:
         print("Palun sisesta kehtiv arv!")
+elif valik == '7':
+        while True:
+            try:
+                A = int(input("Sisesta vahemiku algus A: "))
+                B = int(input("Sisesta vahemiku lõpp B: "))
+                K = int(input("Sisesta jagaja K (K != 0): "))
+                if K != 0:
+                    break
+                else:
+                    print("K ei tohi olla 0.")
+            except ValueError:
+                print("Palun sisesta kehtiv täisarv.")
+
+        for i in range(A, B + 1):
+            if i % K == 0:
+                print(i)
 pos_kogus=0
         neg_kogus=0
         null_kogus=0
